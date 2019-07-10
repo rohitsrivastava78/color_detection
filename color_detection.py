@@ -10,7 +10,7 @@ import cv2, time
 import numpy as np
 
 
-video_path = 'color_object1.avi'
+video_path = 'video/color_object1.avi'
 cap = cv2.VideoCapture(video_path)
 
 while(1):
