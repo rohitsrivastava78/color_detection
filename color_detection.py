@@ -15,13 +15,15 @@ cap = cv2.VideoCapture(video_path)
 
 while(1):
 
-    if (cap.isOpened() == False): 
-        print("Unable to read camera feed in loop !!! ")
-        time.sleep(1)
-        continue
-    
     # Take each frame
     status, frame = cap.read()
+    
+    if ( cap.isOpened() == False or status == False ): 
+        print("Unable to read camera feed in loop !!! ")
+        time.sleep(1)
+        break
+    
+    
 
     # Convert BGR to HSV    
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
