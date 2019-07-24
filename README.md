@@ -10,7 +10,7 @@ python opencv based algorithm for wide range of color segmentation.
 
 
 
-<video src=" https://rohitsrivastava78.github.io/color_detection/video/color_object1.mp4" width="320" height="200" controls preload></video>
+<video src="https://rohitsrivastava78.github.io/color_detection/video/color_object1.mp4" width="320" height="200" controls preload></video>
 
 <video width="320" height="200" controls preload> 
     <source src="video/color_object1.mp4"></source> 
