@@ -11,6 +11,6 @@ python opencv based algorithm for wide range of color segmentation.
   <a href="https://github.com/rohitsrivastava78/color_detection/blob/master/video/color_object1.mp4"><img src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
 <video width="320" height="240" controls>
-  <source src="color_object1.mp4" type="video/mp4">
+  <source src="video/color_object1.mp4" type="video/mp4">
 </video>
 
