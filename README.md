@@ -2,6 +2,14 @@
 python opencv based algorithm for wide range of color segmentation.
 
 %%HTML
+<div class="myvideo">
+   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="{{ site.baseurl }}video/color_object1.mp4" type="video/mp4" />
+   </video>
+</div>
+
+
+
 <video src="video/color_object1.mp4" width="320" height="200" controls preload></video>
 
 <video width="320" height="200" controls preload> 
